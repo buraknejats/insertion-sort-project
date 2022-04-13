@@ -1,0 +1,27 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+1) adım adım küçükten büyüğe sıraya sokarız
+
+2 ile 22 yer değişir -> [2, x 27, 16, 22, 18, 6]
+27 ile 6 yer değişir [2, 6, x 16, 22, 18, 27]
+16 yerinde kalır -> [2, 6, 16, x 22, 18, 27]
+18 ile 22 yer değişir -> [2, 6 16 18 ,22, 27]
+
+2) 
+adım 1 = n
+adım 2 = n-1
+adım 3 = n-2
+ n-1 = 1
+
+sum = (n*(n-1))/2 -> O(n^2)
+
+Time Complexity: Average case: Aradığımız sayının ortada olması 
+3) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+average case
+
+4) [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+ 
+7 ile 2 yer değişir -> [2, x 3, 5, 8, 7, 9, 4, 15, 6]
+yerd değiştirmeye gerek yoktur. [2, 3, x 5, 8, 7, 9, 4, 15, 6]
+ 5 ile 4  yer değişir -> [2, 3, 4, x 8, 7, 9, 5, 15, 6]
+ 8 ile 5 yer değişir-> [2, 3, 4, 5, x 7, 9, 8, 15, 6]
